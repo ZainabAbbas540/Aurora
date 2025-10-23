@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>About — Aurora</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<header class="topbar">
+  <div class="container topbar-inner">
+    <a class="brand" href="index.html">
+      <span class="logo"></span><span>AURORA</span>
+    </a>
+      <nav class="site-nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="index.html">About</a>
+        <a href="index.html">Collection</a>
+        <a href="index.html">Contact</a>
+      </nav>
+  </div>
+</header>
+
+
+
+<!-- Contact  -->
+<section class="section" style="padding-top:30px">
+  <div class="container grid" style="grid-template-columns:1fr 1fr; gap:28px; align-items:center">
+    <div class="hero-media reveal">
+      <img src="assets/img/heroImage.jpg" alt="Aurora Studio">
+    </div>
+    <div class="reveal">
+      <h2 class="page-title" style="margin:0 0 6px">Say Hello</h2>
+      <p class="muted">Wholesale, collaborations, or press? We’d love to hear from you.</p>
+      <form class="form" style="margin-top:8px">
+        <input class="input" type="text" placeholder="Full name" required>
+        <input class="input" type="email" placeholder="Email address" required>
+        <textarea class="textarea" placeholder="Message" required></textarea>
+        <button class="btn">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <div class="brand"><span class="logo"></span>AURORA</div><small>© <span id="year"></span> Aurora</small>
+        <p class="footer-author">© 2025 Zainab Abbas — All Rights Reserved</p>
+      </div>
+ 
+      <div class="footer-right">
+        <ul class="footer-links">
+          <li><a href="mailto:your-email@example.com">✉ zainab.abbas.3495@gmail.com</a></li>
+          <li><a
+              href="https://www.linkedin.com/in/zainab2006?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+<script src="assets/js/main.js"></script>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+<div class="snow"></div>
+</body>
+</html>

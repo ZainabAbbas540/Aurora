@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Collection — Aurora</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="index.html">
+        <span class="logo"></span><span>AURORA</span>
+      </a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a class="active" href="collection.html">Collection</a>
+        <a href="lookbook.html">Lookbook</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h2 class="page-title reveal">Shop the Collection</h2>
+
+      <!-- Filters (simple, optional) -->
+      <div class="filters">
+        <button class="chip is-active" data-filter="all">All</button>
+        <button class="chip" data-filter="outerwear">Outerwear</button>
+        <button class="chip" data-filter="knitwear">Knitwear</button>
+        <button class="chip" data-filter="dresses">Dresses</button>
+      </div>
+
+      <!-- Product grid -->
+      <div class="grid products">
+
+        <article class="card reveal" data-quickview data-category="outerwear">
+          <img src="assets/img/wool.jpg" alt="Longline Padded Leather Jacket">
+          <div class="info">
+            <div class="name">Longline Padded Leather Jacket</div>
+            <div class="price">$180</div>
+          </div>
+          <span class="quick">Quick view</span>
+        </article>
+
+        <article class="card reveal" data-quickview data-category="outerwear">
+          <img src="assets/img/outfit.jpg" alt="Classic Wool Coat">
+          <div class="info">
+            <div class="name">Classic Wool Coat</div>
+            <div class="price">$120</div>
+          </div>
+          <span class="quick">Quick view</span>
+        </article>
+
+        <article class="card reveal" data-quickview data-category="knitwear">
+          <img src="assets/img/model1.jpg" alt="Cashmere Wrap Cardigan">
+          <div class="info">
+            <div class="name">Cashmere Wrap Cardigan</div>
+            <div class="price">$95</div>
+          </div>
+          <span class="quick">Quick view</span>
+        </article>
+
+        <article class="card reveal" data-quickview data-category="dresses">
+          <img src="assets/img/outfit3.jpg" alt="Velvet Midi Dress">
+          <div class="info">
+            <div class="name">Velvet Midi Dress</div>
+            <div class="price">$140</div>
+          </div>
+          <span class="quick">Quick view</span>
+        </article>
+
+        <article class="card reveal" data-quickview data-category="knitwear">
+          <img src="assets/img/jacket.jpg" alt="Ribbed Turtleneck">
+          <div class="info">
+            <div class="name">Ribbed Turtleneck</div>
+            <div class="price">$60</div>
+          </div>
+          <span class="quick">Quick view</span>
+        </article>
+
+        <article class="card reveal" data-quickview data-category="dresses">
+          <img src="assets/img/models.jpg" alt="Satin Slip Dress">
+          <div class="info">
+            <div class="name">Satin Slip Dress</div>
+            <div class="price">$110</div>
+          </div>
+          <span class="quick">Quick view</span>
+        </article>
+
+        <article class="card reveal" data-quickview data-category="outerwear">
+          <img src="assets/img/brown.jpg" alt="Belted Trench">
+          <div class="info">
+            <div class="name">Belted Trench</div>
+            <div class="price">$150</div>
+          </div>
+          <span class="quick">Quick view</span>
+        </article>
+
+        <article class="card reveal" data-quickview data-category="knitwear">
+          <img src="assets/img/pink.jpg" alt="Fisherman Sweater">
+          <div class="info">
+            <div class="name">Fisherman Sweater</div>
+            <div class="price">$80</div>
+          </div>
+          <span class="quick">Quick view</span>
+        </article>
+      </div>
+    </div>
+  </main>
+
+
+
+  <!-- Quick view modal -->
+  <div class="modal" id="quickview">
+    <div class="modal-inner">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-media"><img alt="" id="qv-img"></div>
+      <div class="modal-info">
+        <h3 id="qv-name"></h3>
+        <p class="muted">Cozy textures. Tailored silhouettes.</p>
+        <div class="qv-price" id="qv-price"></div>
+        <button class="btn-primary">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <div class="brand"><span class="logo"></span>AURORA</div><small>© <span id="year"></span> Aurora</small>
+        <p class="footer-author">© 2025 Zainab Abbas — All Rights Reserved</p>
+      </div>
+
+      <div class="footer-right">
+        <ul class="footer-links">
+          <li><a href="mailto:your-email@example.com">✉ zainab.abbas.3495@gmail.com</a></li>
+          <li><a
+              href="https://www.linkedin.com/in/zainab2006?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
